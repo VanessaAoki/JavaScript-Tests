@@ -20,6 +20,8 @@
 
 This is an exercise to apply practical tests for JavaScript functions using the Jest library, following the AAA pattern.
 
+![Screenshot](./img/Screenshot.png)
+
 ## Built With
 
 - HTML, CSS, JavaScript, Jest & Webpack;
@@ -27,8 +29,7 @@ This is an exercise to apply practical tests for JavaScript functions using the 
 
 ## Getting Started
 
-### Running locally
-To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
+To run this project, you only need to follow these steps:
 
 1. In your terminal, type the following, to clone this repository:
 
@@ -39,17 +40,16 @@ $ git clone git@github.com:VanessaAoki/JavaScript-Tests.git
 2. After, run the following commands in your terminal:
 
 ```sh
-$ cd To-Do-List
-$ npm install
-$ cd dist
+$ cd JavaScript-Tests
+npm install
+npm test
 ```
 <details align="right">
 <summary><small>What are these commands?</summary>
 - the `$ cd` command is used to move to different folders. <br>
-- while `$ npm build` is used to compile the aplication files.</small>
+- while `$ npm build` is used to compile the aplication files.
+- lastly, `$ npm run test` is used to run the test files.</small>
 </details>
-
-3. Open the `index.html` file and run the application;
 
 ## Author
 
